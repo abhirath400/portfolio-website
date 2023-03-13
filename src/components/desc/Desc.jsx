@@ -4,7 +4,7 @@ import './desc.css'
 
 const Desc = () => {
   return (
-    <div>Desc</div>
+    <div>Description</div>
   )
 }
 
