@@ -50,16 +50,18 @@
 .navbar__menu {
     display: none;
 }
-.navbar__menu--links {
-    flex-direction: column;
-}
+
 
 @media screen and (max-width: 800px) {
 
+    .navbar {
+        flex-direction: column;
+    }
+    
     .navbar__logo {
         font-size: 1.5rem;
     }
-
+    
     .navbar__logo span {
         font-size: 1rem;
         margin: 0 0.5rem;
@@ -68,7 +70,7 @@
     .navbar__links a, .navbar__menu, .navbar__menu--links a {
         font-size: 1rem;
     }
-
+    
     .navbar__links {
         display: none;
     }
@@ -81,20 +83,24 @@
 }
 
 @media screen and (max-width: 350px) {
-
+    
+    .navbar {
+        flex-direction: column;
+    }
+    
     .navbar__logo {
         font-size: 1rem;
     }
-
+    
     .navbar__logo span {
         font-size: 0.7rem;
         margin: 0 0.3rem;
     }
-
+    
     .navbar__links a, .navbar__menu, .navbar__menu--links a {
         font-size: 0.8rem;
     }
-
+    
     .navbar__links {
         display: none;
     }

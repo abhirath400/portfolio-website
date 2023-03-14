@@ -47,6 +47,9 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
+        <div className='navbar__logo navbar--glow'>
+            <span>🌙</span> Chandrashekhar Gouda
+        </div>
         <div className='navbar__menu'>
             {
                 toggleMenu ? (
@@ -65,9 +68,6 @@ const Navbar = () => {
             {toggleMenu && (<div className='navbar__menu--links'>
                 <Menu />
             </div>)}
-        </div>
-        <div className='navbar__logo navbar--glow'>
-            <span>🌙</span> Chandrashekhar Gouda
         </div>
         <div className='navbar__links'>
             <Menu />
