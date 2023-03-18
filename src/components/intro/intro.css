@@ -1,4 +1,6 @@
 .intro {
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +14,6 @@
     width: 100%;
     height: calc(100vh - 10rem);
     box-sizing: border-box;
-    backdrop-filter: blur(1rem);
 }
 
 .intro__main--text {
